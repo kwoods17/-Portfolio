@@ -1,4 +1,4 @@
-# -Portfolio
+# Portfolio
 # Kenya Woods' Software Engineering Portfolio
 
 ## About Me
@@ -6,6 +6,7 @@
 * Currently developing a strong foundation in software engineering during an 8-month intensive bootcamp at Nebula Academy. 
 * Passionate about using technology to solve real-world problems.
 * Actively gaining expertise in web development, backend development, and full-stack applications.
+* Instructional Assistant at an IT Bootcamp
 
 ## Training Highlights (Nebula Academy)
 
@@ -24,12 +25,13 @@
 ## Education
 
 * **Nebula Academy:** Software Engineering Bootcamp (Graduating June 2024)
+* **Per Scholas:** IT Bootcamp 2023 - CompTIA A+ Certification
 
 ## Contact
 
 * **Email:** kwoo1977@gmail.com
-* **LinkedIn:** 
-* **GitHub:** 
+* **LinkedIn:** www.linkedin.com/in/kenya-woods-14b5a8b1
+
 
 ## Let's Connect!
 
