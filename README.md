@@ -35,4 +35,4 @@
 
 ## Let's Connect!
 
-I'm eager to explore internship or junior development opportunities to apply my skills and continue learning.  Please feel free to reach out! 
+* I embrace continuous learning and I'm excited to see what the future of development holds. I'd love to connect and exchange ideas. Feel free to say hello!
