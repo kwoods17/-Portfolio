@@ -1,0 +1,7 @@
+export default function Gallery() {
+    return (
+        <div>
+            <h1>Welcome to my Digital Art Gallery</h1>
+        </div>
+    )
+}

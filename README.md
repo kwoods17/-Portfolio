@@ -1,37 +1,17 @@
-# Portfolio
 # Kenya Woods' Software Engineering Portfolio
+This portfolio highlights projects I worked on while at Nebula Academy as well as some personal interests.
 
-## About Me
-
-* Currently developing a strong foundation in software engineering during an 8-month intensive boot camp at Nebula Academy. 
-* Passionate about using technology to solve real-world problems.
-* Actively gaining expertise in web development, backend development, and full-stack applications.
-* Instructional Assistant at an IT Bootcamp
-
-## Training Highlights (Nebula Academy)
-
-* **Web Fundamentals:**  Proficient in HTML, CSS, and JavaScript. Constructed functional web applications.
-* **Advanced JavaScript & Game Development:** Applied advanced JavaScript concepts and algorithms to create a web-based game.
-* **Node.js and Express:** Experienced in developing servers and APIs using Node.js and Express. Integrated databases and APIs in projects.
-* **React Applications:**  Solid understanding of building React applications, and enhancing front-end skills.
-* **Full-Stack Development:** Created a full-stack application, including a "Not-Netflix" app, to solidify front-end and back-end integration.
-* **Capstone Project:** Collaborating on a comprehensive capstone project to utilize acquired skills for addressing community issues. 
-
-## Languages And Technologies
-* **Front-End:** JavaScript (ES6), React, JSX, HTML5, CSS3
-* **Back-End:** Node.js, Express, AWS, PostgreSQL, RESTful API
-* **Tools:** Git, VS Code, MSFT Teams, Slack, Figma
-
-## Education
-
-* **Nebula Academy:** Software Engineering Bootcamp (Graduating June 2024)
-* **Per Scholas:** IT Bootcamp 2023 - CompTIA A+ Certification
-
-## Contact
-
-* **Email:** kwoo1977@gmail.com
-* **LinkedIn:** www.linkedin.com/in/kenya-woods-14b5a8b1
+## Figma Wireframe
+https://www.figma.com/file/ADPgVYJy6ezetETDGwIiTx/Figma-basics?type=design&node-id=1669%3A162202&mode=design&t=WVcIHkdfynI6y9v1-1
 
 
-## Let's Connect!
-I embrace continuous learning and I'm excited to see what the future of development holds. I'd love to connect and exchange ideas. Feel free to say hello!
+## MVP
+* **Home Page:** 
+* **About Me:** 
+* **Projects:** 
+
+## PMVP
+* **Gallery
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
