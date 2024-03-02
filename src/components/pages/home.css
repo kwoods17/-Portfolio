@@ -1,0 +1,29 @@
+.profile-image {
+    max-width: 100%; /* Takes up full width of its container */
+    height: auto;  /* Maintains aspect ratio */
+}
+body {
+    background-color: #FBD3E9; /* Blush Pink */
+    margin: 0;
+    font-family: 'FunProfessionalFont', sans-serif; /* Placeholder - choose your font */
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; /* Arranges nav items horizontally */
+    justify-content: space-around; /* Adjust spacing as needed */
+  }
+  
+  .hero {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-pic img {
+    border-radius: 50%;  /* Adjust for a circular or rounded border */
+    border: 5px solid #8E24AA;  /* Purple-ish */
+  }
+  

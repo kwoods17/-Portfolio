@@ -1,0 +1,29 @@
+/* About.css */
+.about-page {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    display: flex;     
+    align-items: center; 
+  }
+  
+  .profile-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; /* Creates a circular profile image */
+    margin-right: 30px; 
+  }
+  
+  .intro-text {
+    /* Style your headings and paragraph here */ 
+  }
+  
+  .photo-credit {
+    font-size: 0.8em;  /* Smaller text for credit */
+    text-align: center;
+    margin-top: 20px;
+  }
+  

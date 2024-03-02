@@ -1,0 +1,116 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F8E0E0;
+    /* Rose Gold-ish */
+    border-bottom: 3px solid #D32F2F;
+    /* Magenta-ish */
+    position: fixed;
+    /* Fix to the top */
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* Prevent padding from pushing layout  */
+}
+
+.navbar-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    /* Example: Professional & fun */
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    display: inline-block;
+    /* Use inline-block for better spacing control */
+    margin-left: 20px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        /* Hide links on smaller screens */
+    }
+
+    /* Add a hamburger menu button here if you want */
+}
+
+/* NavBar.css */
+/* ... previous styles ... */
+
+.hamburger-menu {
+    display: none;
+    /* Hide the button by default on larger screens */
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navbar-links {
+        display: block;
+        /* Changed from none */
+        position: absolute;
+        top: 100%;
+        /* Position below the navbar */
+        left: 0;
+        width: 100%;
+        background-color: #F8E0E0;
+        text-align: center;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
+    .navbar-links.active {
+        display: block;
+        /* Show when 'active' class is applied */
+    }
+
+    .navbar-links li {
+        display: block;
+        /* Make links stack vertically */
+        margin: 15px 0;
+    }
+}
+/* NavBar.css */
+/* ... previous styles ... */
+
+@media (max-width: 768px) { 
+    /* ... other mobile styles ... */
+  
+    .navbar-links {
+      /* ... previous styles ... */
+      opacity: 0;         /* Initially invisible */
+      transform: translateX(-100%); /* Slide from the left */
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    }
+  
+    .navbar-links.active {
+      opacity: 1;         /* Fade in */
+      transform: translateX(0); /* Slide into place */
+    }
+  } 
+  

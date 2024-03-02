@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function NavBar() {
+export default function Navbar() {
     return (
-        <nav className='navBar'>
+        <nav className='navbar'>
             <div className='navLogo'>Logo</div>
-            <div className='navBarText'>
+            <div className='navbarText'>
                 <ul>
                     <li>
                         Home

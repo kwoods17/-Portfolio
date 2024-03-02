@@ -1,28 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif
-    }
-  
-    body{
-      background-color: #222222;
-      color: white;
-      font-family: helvetica;
-    }
-  
-    .container{
-      border: 3px solid red;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 10px;
-    }
-    .page{
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 3px solid purple;
-      width: 100%;
-    }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+  }
+
+  body{
+    background-color: #222222;
+    color: white;
+    font-family: helvetica;
+  }
+
+  .container{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .page{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid purple;
+    width: 100%;
+  }
+
+.navBar{
+  position: fixed;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  box-shadow: 0 5px 20px -15px black;
+  backdrop-filter: blur(10px); 
+  margin-bottom: 20px;
+  height: 90px;
+}
+
+.navBar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.navBarLi{
+  margin: 5px 20px;
+  cursor: pointer;
+}
+
+.navLogo{
+  margin-left: 40px;
+}
